@@ -5,7 +5,7 @@ app.use(express.json());
 
 // ✅ Etapa de verificação do webhook da Meta
 app.get("/webhook", (req, res) => {
-  const VERIFY_TOKEN = "vaiterplay123"; // <-- personalize esse token
+  const VERIFY_TOKEN = "vaiterplay8234"; // <-- personalize esse token
 
   const mode = req.query["hub.mode"];
   const token = req.query["hub.verify_token"];
